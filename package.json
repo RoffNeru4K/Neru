@@ -1,0 +1,15 @@
+{
+  "name": "express-server",
+  "version": "1.0.0",
+  "description": "Sebuah server Express.js sederhana",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Nama Anda",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "api-roffineru4k": "latest"
+  }
+}
