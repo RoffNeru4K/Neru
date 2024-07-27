@@ -505,8 +505,7 @@ app.get('/api/twitter', (req, res) => {
     const dataDummy = {
   "creator": "RoffiNeru4K",
   "community": "https://ungu.in/ChennelRoffiNeru4K",
-  "status": true,
-  "data": {"Masukan Url yang sesuai nanti akan muncul output yang sesuai."}
+  "status": false
 }
     res.send(`<!DOCTYPE html>
 <html lang="en">
