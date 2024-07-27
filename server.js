@@ -2,7 +2,7 @@ const express = require('express');
 const { ytdown, tikdown, twitterdown, GDLink, capcut } = require("api-roffineru4k");
 const path = require('path');
 const app = express();
-const port = process.env.PORT || 3000;
+const port = 80;
 
 // Home route
 app.get('/', (req, res) => {
