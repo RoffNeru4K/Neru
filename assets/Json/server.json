@@ -1,0 +1,11 @@
+{
+  "key": {
+    "roff": 47,
+    "your-api-key-2": 50,
+    "your-api-key-3": 50
+  },
+  "request": {
+    "alltime": 3,
+    "today": 3
+  }
+}
