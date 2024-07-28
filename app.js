@@ -3,7 +3,7 @@ const { ytdown, tikdown, twitterdown, GDLink, capcut } = require("api-roffineru4
 const path = require('path');
 const app = express();
 const cron = require('node-cron');
-const port = 8080;
+const port = 80;
 const jsonFilePath = './assets/json/server.json';
 const fs = require('fs');
 
