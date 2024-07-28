@@ -4,13 +4,13 @@ const path = require('path');
 const app = express();
 const cron = require('node-cron');
 const port = 80;
-const jsonFilePath = './assets/json/server.json';
+const jsonFilePath = './assets/Json/server.json';
 const fs = require('fs');
 
 // Function to get main HTML content
 const mainhtml = () => {
   return new Promise((resolve, reject) => {
-    fs.readFile(path.join(__dirname, '/assets/json/main.json'), 'utf8', (err, data) => {
+    fs.readFile(path.join(__dirname, '/assets/Json/main.json'), 'utf8', (err, data) => {
       if (err) {
         reject(err);
       } else {
