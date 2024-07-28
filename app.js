@@ -2,7 +2,7 @@ const express = require('express');
 const { ytdown, tikdown, twitterdown, GDLink, capcut } = require("api-roffineru4k");
 const path = require('path');
 const app = express();
-const port = process.env.PORT || 3000;
+const port = 80;
 const fs = require('fs');
 const path1 = './server.json';
 
@@ -60,7 +60,6 @@ app.get('/', (req, res) => {
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>RoffiNeru4K - Public Api!</title>
   <meta name="description" content="With our global CDN, upload your files anywhere with exceptional speed and reliability.">
-  <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.nekohime.xyz/images/favicon.ico">
   <link rel="stylesheet" href="https://cdn.nekohime.xyz/assets/css/style.min.css">
   <link rel="stylesheet" href="https://cdn.nekohime.xyz/assets/css/prims.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -98,7 +97,7 @@ app.get('/', (req, res) => {
   <div class="container">
     <div class="header">
       <h1>Website to try & use Api for free.</h1>
-      <p>Made With </p>
+      <p>Made With <span class="heart">❤️</span></p>
     </div>
 
     <div class="preview" id="preview"></div>
